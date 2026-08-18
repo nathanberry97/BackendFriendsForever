@@ -1,0 +1,13 @@
+{
+  "name": "backend-friends-forever",
+  "private": true,
+  "scripts": {
+    "dev:apis": "pnpm --filter mock-apis dev",
+    "dev:bff": "pnpm --filter bff-service dev",
+    "dev:web": "pnpm --filter web-frontend dev",
+    "dev": "pnpm --parallel --filter \"./apps/**\" dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
