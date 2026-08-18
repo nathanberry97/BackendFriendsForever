@@ -2,13 +2,6 @@
 
 ## TODO
 
-- [ ] **Dumb React Frontend (`apps/web-frontend`)**
-  - [ ] React + Vite setup on port `3000` with Tailwind CSS (GDS colour tokens)
-  - [ ] Persona switcher toolbar
-  - [ ] `<ComponentRenderer />` dynamic mapper
-  - [ ] GDS UI components (`GovHeader`, `VerificationBanner`, `ServiceCards`, `CaseworkerMetrics`)
-  - [ ] Collapsible "Raw BFF Payload" drawer for the demo
-
 - [ ] **Friday Demo Prep**
   - [ ] Test single-command launch (`pnpm dev`)
   - [ ] Rehearse 3-minute pitch script
@@ -42,4 +35,10 @@
   - [X] Express setup on port `4000`
   - [X] `/api/page/account-home` endpoint with parallel data fetching
   - [X] Server-Driven UI logic (dynamically assembling UI schema per persona)
+- [X] **Dumb React Frontend (`apps/web-frontend`)**
+  - [X] React + Vite setup on port `3000` with Tailwind CSS (GDS colour tokens)
+  - [X] Persona switcher toolbar
+  - [X] `<ComponentRenderer />` dynamic mapper
+  - [X] GDS UI components (`GovHeader`, `VerificationBanner`, `ServiceCards`, `CaseworkerMetrics`)
+  - [X] Collapsible "Raw BFF Payload" drawer for the demo
 
