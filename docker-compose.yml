@@ -1,0 +1,20 @@
+services:
+  mock-apis:
+    build:
+      context: .
+      args:
+        APP: mock-apis
+    ports:
+      - "4001:4001"
+
+  bff-service:
+    build:
+      context: .
+      args:
+        APP: bff-service
+    ports:
+      - "4000:4000"
+    environment:
+      - MOCK_API_BASE_URL=http://mock-apis:4001
+    depends_on:
+      - mock-apis
