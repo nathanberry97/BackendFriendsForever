@@ -18,3 +18,15 @@ services:
       - MOCK_API_BASE_URL=http://mock-apis:4001
     depends_on:
       - mock-apis
+
+  web-frontend:
+    build:
+      context: .
+      args:
+        APP: web-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_BFF_URL=http://bff-service:4000
+    depends_on:
+      - bff-service
