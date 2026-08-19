@@ -2,13 +2,10 @@
 
 ## TODO
 
-- [ ] **Friday Demo Prep**
-  - [ ] Test single-command launch (`pnpm dev`)
-  - [ ] Rehearse 3-minute pitch script
-
 ## IN PROGRESS
 
 ## DONE
+
 - [X] Project scope and idea approved
 - [X] Architecture design (pnpm workspace + Express BFF + React)
 - [X] Named project: **BackendFriendsForever**
@@ -41,4 +38,7 @@
   - [X] `<ComponentRenderer />` dynamic mapper
   - [X] GDS UI components (`GovHeader`, `VerificationBanner`, `ServiceCards`, `CaseworkerMetrics`)
   - [X] Collapsible "Raw BFF Payload" drawer for the demo
+- [X] **Friday Demo Prep**
+  - [X] Test single-command launch (`docker compose up`)
+  - [X] Rehearse 3-minute pitch script
 
