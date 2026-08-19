@@ -21,13 +21,13 @@ For mobile teams, this pattern is especially powerful because:
 
 ```
 ┌─────────────────┐
-│   iOS App        │──┐
-│  (Swift/UIKit)   │  │
+│  iOS App        │──┐
+│ (Swift/UIKit)   │  │
 └─────────────────┘  │
                      │      ┌──────────────────┐         ┌─────────────────┐
 ┌─────────────────┐  ├─────▶│   bff-service    │────────▶│ Department APIs │
 │  Android App    │──┤single│  (Express BFF)   │ parallel│  (HMRC, DVLA,   │
-│  (Kotlin/Jetpack)│  │ req  │  port 4000       │  fetch  │   DWP, etc.)    │
+│ (Kotlin/Jetpack)│  │ req  │  port 4000       │  fetch  │   DWP, etc.)    │
 └─────────────────┘  │      └──────────────────┘         └─────────────────┘
                      │               │
 ┌─────────────────┐  │               ▼
